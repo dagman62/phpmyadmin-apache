@@ -1,0 +1,3 @@
+GRANT ALL ON <%= @pmaschema %>.* TO '<%= @pmauser %>'@'<%= @dbhost %>' IDENTIFIED BY '<%= @pmapass %>' WITH GRANT OPTION;
+GRANT ALL ON <%= @pmaschema %>.* TO '<%= @pmauser %>'@'<%= @fqdn %>' IDENTIFIED BY '<%= @pmapass %>' WITH GRANT OPTION; 
+
